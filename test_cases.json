@@ -1,0 +1,102 @@
+[
+  {
+    "agent": "coder",
+    "prompt": "Write a Python function that checks if a number is prime.",
+    "expected_keywords": ["def", "prime", "return", "True", "False"]
+  },
+  {
+    "agent": "coder",
+    "prompt": "Write a bash script that finds all .log files older than 7 days and deletes them.",
+    "expected_keywords": ["find", "mtime", "delete", "log", "bash"]
+  },
+  {
+    "agent": "coder",
+    "prompt": "Create a simple HTTP server in Node.js that responds with JSON.",
+    "expected_keywords": ["http", "createServer", "listen", "json", "response"]
+  },
+  {
+    "agent": "scholar",
+    "prompt": "Explain the difference between TCP and UDP protocols.",
+    "expected_keywords": ["connection", "reliable", "packet", "order", "handshake"]
+  },
+  {
+    "agent": "scholar",
+    "prompt": "What is the CAP theorem in distributed systems?",
+    "expected_keywords": ["consistency", "availability", "partition", "tolerance", "distributed"]
+  },
+  {
+    "agent": "pascal",
+    "prompt": "Prove that the square root of 2 is irrational.",
+    "expected_keywords": ["proof", "contradiction", "rational", "even", "odd"]
+  },
+  {
+    "agent": "pascal",
+    "prompt": "Explain the relationship between Euler's number e and compound interest.",
+    "expected_keywords": ["limit", "compound", "interest", "continuous", "growth"]
+  },
+  {
+    "agent": "writer",
+    "prompt": "Write a changelog entry for a release that adds WebSocket support and fixes a memory leak.",
+    "expected_keywords": ["added", "fixed", "WebSocket", "memory", "leak"]
+  },
+  {
+    "agent": "writer",
+    "prompt": "Write a one-paragraph product description for a self-hosted AI platform.",
+    "expected_keywords": ["self-hosted", "AI", "privacy", "deploy", "models"]
+  },
+  {
+    "agent": "cipher",
+    "prompt": "What are the OWASP Top 10 web application security risks?",
+    "expected_keywords": ["injection", "authentication", "access", "security", "XSS"]
+  },
+  {
+    "agent": "cipher",
+    "prompt": "How should API keys be stored securely in a production application?",
+    "expected_keywords": ["environment", "vault", "encrypt", "secret", "plaintext"]
+  },
+  {
+    "agent": "tutor",
+    "prompt": "Explain what Docker containers are to someone who has never used them.",
+    "expected_keywords": ["container", "application", "isolated", "image", "run"]
+  },
+  {
+    "agent": "tutor",
+    "prompt": "Walk me through setting up SSH key-based authentication step by step.",
+    "expected_keywords": ["ssh-keygen", "public", "private", "authorized_keys", "key"]
+  },
+  {
+    "agent": "alice",
+    "prompt": "How do I configure nginx as a reverse proxy for a Node.js app on port 3000?",
+    "expected_keywords": ["proxy_pass", "server", "location", "upstream", "port"]
+  },
+  {
+    "agent": "alice",
+    "prompt": "What DNS record types do I need to set up email for a custom domain?",
+    "expected_keywords": ["MX", "SPF", "DKIM", "TXT", "record"]
+  },
+  {
+    "agent": "octavia",
+    "prompt": "Write a Dockerfile for a Python Flask application with requirements.txt.",
+    "expected_keywords": ["FROM", "COPY", "RUN", "pip", "EXPOSE"]
+  },
+  {
+    "agent": "octavia",
+    "prompt": "How do I set up a CI/CD pipeline that runs tests and deploys on merge to main?",
+    "expected_keywords": ["pipeline", "test", "deploy", "main", "merge"]
+  },
+  {
+    "agent": "cecilia",
+    "prompt": "How do I run a local LLM using Ollama and switch between models?",
+    "expected_keywords": ["ollama", "run", "pull", "model", "local"]
+  },
+  {
+    "agent": "aria",
+    "prompt": "What metrics should I monitor for a production web application?",
+    "expected_keywords": ["latency", "error", "CPU", "memory", "request"]
+  },
+  {
+    "agent": "road",
+    "prompt": "Give me a status overview of a 5-node Pi cluster running AI workloads.",
+    "expected_keywords": ["node", "status", "uptime", "load", "service"]
+  }
+]
